@@ -1,0 +1,93 @@
+----------------------------------------------------------
+*** GRID 512x512 ***
+*** SEQUENTIAL ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 6.685548 seconds with 3001 iterations 
+    
+*** PTHREAD 1 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 5.832096 seconds with 0 iterations 
+    
+*** PTHREAD 2 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 2.799702 seconds with 0 iterations 
+    
+*** PTHREAD 5 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 1.273584 seconds with 0 iterations 
+    
+*** PTHREAD 10 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 0.906602 seconds with 0 iterations 
+    
+*** PTHREAD 20 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 1.003855 seconds with 0 iterations 
+    
+*** PTHREAD 40 ***
+Jacobi relaxation calculation: 512 x 512 grid
+Kernel executed in 1.151466 seconds with 0 iterations 
+    
+----------------------------------------------------------
+----------------------------------------------------------
+*** GRID 1024x1024 ***
+*** SEQUENTIAL ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 27.542623 seconds with 3001 iterations 
+    
+*** PTHREAD 1 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 22.842339 seconds with 0 iterations 
+    
+*** PTHREAD 2 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 11.195696 seconds with 0 iterations 
+    
+*** PTHREAD 5 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 4.565067 seconds with 0 iterations 
+    
+*** PTHREAD 10 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 2.640645 seconds with 0 iterations 
+    
+*** PTHREAD 20 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 1.944390 seconds with 0 iterations 
+    
+*** PTHREAD 40 ***
+Jacobi relaxation calculation: 1024 x 1024 grid
+Kernel executed in 2.117609 seconds with 0 iterations 
+    
+----------------------------------------------------------
+----------------------------------------------------------
+*** GRID 2048x2048 ***
+*** SEQUENTIAL ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 109.355208 seconds with 3001 iterations 
+    
+*** PTHREAD 1 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 92.359900 seconds with 0 iterations 
+    
+*** PTHREAD 2 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 46.226743 seconds with 0 iterations 
+    
+*** PTHREAD 5 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 18.360267 seconds with 0 iterations 
+    
+*** PTHREAD 10 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 9.749109 seconds with 0 iterations 
+    
+*** PTHREAD 20 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 5.655443 seconds with 0 iterations 
+    
+*** PTHREAD 40 ***
+Jacobi relaxation calculation: 2048 x 2048 grid
+Kernel executed in 5.158423 seconds with 0 iterations 
+    
+----------------------------------------------------------

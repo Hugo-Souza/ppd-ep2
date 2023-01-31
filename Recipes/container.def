@@ -1,0 +1,18 @@
+Bootstrap: docker
+From: ufscar/ubuntu_ompi:latest
+
+%help
+EP2 de PPD. Paralelização e analise de escalabilidade da solução da equação de transfêrencia de calor de laplace no cluster HPC da UFSCar.
+
+%files
+	#Copiando os arquivos necessários
+	./../Source/* /opt
+
+%post
+	# Compilando os programas do exercício
+	echo ¨Compilando programas...¨
+	cd /opt && make
+	cp laplace_seq laplace_pth /usr/bin
+	
+%runscript
+	exec $@
